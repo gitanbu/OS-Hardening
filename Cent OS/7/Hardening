@@ -1,0 +1,15 @@
+  Install neccasary packages 
+
+yum install vim bash-completion net-tools wget curl lsof 
+
+ Remove unneccasary packages
+
+yum remove postfix chrony alsa-* ivtv-* iwl*firmware aic94xx-firmware*
+
+ Clean your repositories and cache 
+
+yum clean all && rm -rf /var/cache/yum && yum makecache fast
+ 
+ Finally update your OS
+
+yum update
