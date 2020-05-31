@@ -1,8 +1,8 @@
-  Install neccasary packages 
+  Install necessary packages 
 
-yum install vim bash-completion net-tools wget curl lsof 
+yum install vim bash-completion net-tools wget curl lsof unzip
 
- Remove unneccasary packages
+ Remove unnecessary packages
 
 yum remove postfix chrony alsa-* ivtv-* iwl*firmware aic94xx-firmware*
 
