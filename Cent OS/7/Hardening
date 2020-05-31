@@ -1,4 +1,6 @@
-  Install necessary packages 
+Optional : https://www.lisenet.com/2017/centos-7-server-hardening-guide/
+
+Install necessary packages 
 
 yum install vim bash-completion net-tools wget curl lsof unzip
 
